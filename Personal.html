@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabareesh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            color: #9370DB;
+            transition: color 0.3s ease;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #2c2c2c;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #d1d1d1;
+            line-height: 1.6;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #000000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact a:hover {
+            background-color: #F5F5DC;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 5px;
+                font-size: 0.9em;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            #About-Me {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #About-Me img {
+                width: 120px;
+                height: 120px;
+                margin-bottom: 10px;
+            }
+
+            .contact a {
+                font-size: 0.9em;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 1.2em;
+            }
+
+            nav a {
+                font-size: 0.8em;
+            }
+
+            section {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        Sabareesh Chandrasekar
+    </header>
+
+    <nav>
+        <a href="#About-Me">About Me</a>
+        <a href="#A-Journey-of-Passion-and-Purpose">A Journey of Passion and Purpose</a>
+        <a href="https://medium.com/@sabareeshc97" target="_blank" rel="noopener noreferrer">Blogs</a>
+        <a href="#contact-me">Let's Connect</a>
+    </nav>
+
+    <div class="container">
+        <section id="About-Me" style="display: flex; align-items: flex-start; gap: 20px;">
+            <img src="/Users/sabareesh/Downloads/ad05f964-a3b0-4583-ab75-7ce68c40405d.jpeg" alt="Sabareesh"
+                style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+            <div>
+                <h2 style="margin-top: 0;">About Me</h2>
+                <p>
+                    Hey there! I'm Sabareesh, a self-taught engineer driven by a customer-first mindset...
+                </p>
+            </div>
+        </section>
+
+        <section id="A-Journey-of-Passion-and-Purpose">
+            <h2>A Journey of Passion and Purpose</h2>
+            <p>
+                My journey in the world of technology and customer success began...
+            </p>
+        </section>
+
+        <section id="contact-me" class="contact">
+            <h2>Let's Connect</h2>
+            <p>
+                Feel free to reach out if you'd like to connect or collaborate.
+            </p>
+            <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+                <a href="mailto:sabareeshchandrasekar@gmail.com">Email Me</a>
+                <a href="https://www.linkedin.com/in/sabareesh-chandrasekar-901495167/" target="_blank">Connect on
+                    LinkedIn</a>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
